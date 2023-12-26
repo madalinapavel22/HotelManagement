@@ -1,0 +1,128 @@
+.desktop {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div-2 {
+  background-color: #f3f3f3;
+  height: 1029px;
+  position: relative;
+  width: 2089px;
+}
+
+.desktop .overlap-group-2 {
+  height: 142px;
+  left: 24px;
+  position: absolute;
+  top: 115px;
+  width: 681px;
+}
+
+.desktop .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 681px;
+}
+
+.desktop .line {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 88px;
+}
+
+.desktop .overlap {
+  height: 112px;
+  left: 227px;
+  position: absolute;
+  top: 840px;
+  width: 408px;
+}
+
+.desktop .text-wrapper-4 {
+  color: #b81157;
+  font-family: "Poppins", Helvetica;
+  font-size: 40px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 408px;
+}
+
+.desktop .arrow {
+  height: 37px;
+  left: 131px;
+  position: absolute;
+  top: 12px;
+  width: 76px;
+}
+
+.desktop .overlap-2 {
+  height: 87px;
+  left: 751px;
+  position: absolute;
+  top: 298px;
+  width: 587px;
+}
+
+.desktop .rectangle-2 {
+  background-color: #d9d9d9;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 73px;
+  left: 1px;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 14px;
+  width: 586px;
+}
+
+.desktop .username {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 202px;
+}
+
+.desktop .overlap-3 {
+  height: 89px;
+  left: 752px;
+  position: absolute;
+  top: 480px;
+  width: 586px;
+}
+
+.desktop .rectangle-3 {
+  background-color: #d9d9d9;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 73px;
+  left: 0;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 16px;
+  width: 586px;
+}
+
+.desktop .password {
+  height: 38px;
+  left: 11px;
+  position: absolute;
+  top: 0;
+  width: 186px;
+}

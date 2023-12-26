@@ -1,0 +1,49 @@
+.property-component-wrapper {
+  border-radius: 30px;
+  box-shadow: 19px 24px 35px #d09f9f;
+  height: 334px;
+  position: relative;
+  width: 341px;
+}
+
+.property-component-wrapper .div {
+  -webkit-text-stroke: 1px #000000;
+  color: #190000;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 257px;
+  width: 105px;
+}
+
+.property-component-wrapper .costumer {
+  object-fit: cover;
+  position: absolute;
+}
+
+.property-component-wrapper.component-5 {
+  background-color: #c29f9f;
+}
+
+.property-component-wrapper.component-4 {
+  background-color: #e4d0d0;
+}
+
+.property-component-wrapper.component-5 .costumer {
+  height: 210px;
+  left: 63px;
+  top: 44px;
+  width: 216px;
+}
+
+.property-component-wrapper.component-4 .costumer {
+  height: 184px;
+  left: 75px;
+  top: 57px;
+  width: 191px;
+}

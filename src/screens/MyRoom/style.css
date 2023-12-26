@@ -1,0 +1,11 @@
+:root {
+    --scale-factor: 0.75;
+  }
+  .MyRoom {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column; /* Change to column for a full-screen height layout */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    height: 100vh; /* 100% of the viewport height */
+  }

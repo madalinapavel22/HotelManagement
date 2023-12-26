@@ -1,0 +1,68 @@
+.component {
+  height: 334px;
+  width: 341px;
+}
+
+.component .overlap-group {
+  height: 365px;
+  left: -16px;
+  position: relative;
+  top: -11px;
+}
+
+.component .rectangle {
+  height: 365px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.component .text-wrapper {
+  -webkit-text-stroke: 1px #000000;
+  color: #190000;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 84px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 264px;
+}
+
+.component .cleaner {
+  object-fit: cover;
+  position: absolute;
+}
+
+.component .component-2 {
+  width: 391px;
+}
+
+.component .component-1 {
+  width: 411px;
+}
+
+.component .overlap-group.component-2 .rectangle {
+  width: 391px;
+}
+
+.component .overlap-group.component-1 .rectangle {
+  width: 411px;
+}
+
+.component .overlap-group.component-2 .cleaner {
+  height: 223px;
+  left: 92px;
+  top: 44px;
+  width: 218px;
+}
+
+.component .overlap-group.component-1 .cleaner {
+  height: 184px;
+  left: 112px;
+  top: 64px;
+  width: 176px;
+}

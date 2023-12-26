@@ -1,0 +1,48 @@
+.div-wrapper {
+  border-radius: 30px;
+  box-shadow: 19px 24px 35px #d09f9f;
+  height: 334px;
+  position: relative;
+  width: 341px;
+}
+
+.div-wrapper .planning {
+  object-fit: cover;
+  position: absolute;
+}
+
+.div-wrapper .text-wrapper-2 {
+  -webkit-text-stroke: 1px #000000;
+  color: #190000;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 108px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 245px;
+}
+
+.div-wrapper.component-7 {
+  background-color: #e4d0d0;
+}
+
+.div-wrapper.component-8 {
+  background-color: #c29f9f;
+}
+
+.div-wrapper.component-7 .planning {
+  height: 187px;
+  left: 85px;
+  top: 33px;
+  width: 184px;
+}
+
+.div-wrapper.component-8 .planning {
+  height: 228px;
+  left: 64px;
+  top: 12px;
+  width: 226px;
+}
