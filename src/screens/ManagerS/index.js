@@ -1,0 +1,1 @@
+export { ManagerS } from "./ManagerS";

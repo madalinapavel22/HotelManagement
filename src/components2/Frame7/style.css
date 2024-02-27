@@ -1,0 +1,58 @@
+.frame-7 {
+    background-color: #f0393969;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 163px;
+    left: 20px;
+    position: relative;
+    top: 20px;
+    width: 403px;
+  }
+  
+  .frame-7 .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 23px;
+    position: relative;
+    top: 34px;
+  }
+  
+  .frame-7 .vector-2 {
+    height: 41.67px;
+    position: relative;
+    width: 41.67px;
+  }
+  
+  .frame-7 .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 173px;
+  }
+  
+  .frame-7 .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    height: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 152px;
+  }
+  
+  .frame-7:hover {
+    top: 203px;
+    box-shadow: 0px 8px 8px #00000080; /* Add shadow on hover */
+  }
+  .frame-7.clicked {
+    filter: blur(1px);
+    /* Add any other styles for the clicked state */
+  }

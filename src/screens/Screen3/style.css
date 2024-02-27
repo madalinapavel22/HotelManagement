@@ -69,6 +69,8 @@ body, html {
   width: 408px;
 }
 
+
+
 .screen-3 .arrow-4 {
   height: 37px;
   left: 131px;
@@ -187,4 +189,26 @@ body, html {
 {
   color: #000;
   font-weight: bold;
+}
+
+.screen-3 .desktop-4 .overlap-group-4 button.btn-back {
+  margin: 20px; /* Adjust margin as needed */
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  background-color: #b81157;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 1px; /* Adjust letter spacing as needed */
+  text-align: center; /* Center the text */
+  left: 900px; /* Adjust the left position as needed */
+  top: -20px; 
+
 }

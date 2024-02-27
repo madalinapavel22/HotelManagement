@@ -1,0 +1,70 @@
+.property-default{
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.property-default.toilet-paper{
+    align-items: flex-start;
+    display: inline-flex;
+    flex:0 0 auto;
+    gap:10px;
+    position: relative;
+}
+
+.property-default .ellipse {
+    border-radius: 100%;
+    border:none;
+    display: block; 
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color:rgba(92, 84, 78, 0.80);;
+    
+  }
+  .property-default.ellipse:hover {
+    box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+    width: 80px;
+    height: 80px;
+  }
+
+  .property-default .vector{
+    height: 41.24%;
+    left:28.87%;
+    position:absolute;
+    top:29.9%;
+    width:41.24%;
+  }
+  .property-default .div{
+    align-items: flex-start;
+    display: inline-flex;
+    flex:0 0  auto;
+    gap: 10px;
+    margin-top: -130px;
+    position: relative;
+  }
+
+  .property-default .game-icons-towel{
+    height: 42.96%;
+  left:27.84%;
+  top:28.87%;
+  position: absolute;
+  width:42.96%;
+  }
+
+  .property-default .game-icons-liquid{
+    height: 42.96%;
+  left:27.84%;
+  top:28.87%;
+  position: absolute;
+  width:42.96%;
+  }
+
+  .property-default .ic-baseline-plus{
+    height: 42.96%;
+  left:27.84%;
+  top:28.87%;
+  position: absolute;
+  width:42.96%;
+  }

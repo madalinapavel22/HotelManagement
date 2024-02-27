@@ -8,7 +8,11 @@ import { Section } from "./screens/Section";
 import { SectionScreen } from "./screens/SectionScreen";
 import { SectionWrapper } from "./screens/SectionWrapper";
 import { MyRoom}  from "./screens/MyRoom";
-
+import { TableS } from "./screens/TableS";
+import { ManagerS } from "./screens/ManagerS";
+import { Departament2 } from "./screens/Departament2";
+import { Departament3 } from "./screens/Departament3";
+import { Departament4 } from "./screens/Departament4";
 const router = createBrowserRouter([
   {
     path: "/*",
@@ -46,6 +50,26 @@ const router = createBrowserRouter([
     path: "/MyRoom",
     element: <MyRoom />,
   },
+  {
+    path: "/TableS",
+    element: <TableS/>,
+  },
+  {
+    path: "/ManagerS",
+    element: <ManagerS/>,
+  },
+  {
+    path: "/Departament2",
+    element: <Departament2/>,
+  },
+  {
+    path: "/Departament3",
+    element: <Departament3/>,
+  },
+  {
+    path: "/Departament4",
+    element: <Departament4/>,
+  }
 ]);
 
 export const App = () => {

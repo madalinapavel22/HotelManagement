@@ -1,19 +1,88 @@
+:root {
+  --scale-factor: 0.75;
+}
+
 .screen-2 {
   background-color: #f3f3f3;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  height: 100vh;
 }
 
 .screen-2 .desktop-3 {
   background-color: #f3f3f3;
-  height: 1029px;
-  position: relative;
-  width: 2089px;
+  height: 100%;
+  width: 100%;
 }
 
-.screen-2 .overlap-6 {
+body, html {
+  overflow: hidden;
+}
+
+.screen-2 .custom-textbox-username input,
+.screen-2 .custom-textbox-password input {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 99px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.screen-2 .custom-textbox input:focus {
+  outline: none;
+  border: none;
+}
+.screen-2 .btn-back {
+  margin: -30px;
+  padding: 15px 40px;
+  border: none;
+  margin-left: 40px;
+  outline: none;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  background-color: #b81157;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  left: 1000px;
+}
+
+.screen-2 .label-username,
+.screen-2 .label-password {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.screen-2 .line-2 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 164px;
+  width: 88px;
+}
+
+.screen-2 .overlap-8 {
   height: 142px;
   left: 24px;
   position: absolute;
@@ -30,96 +99,136 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: 108;
   width: 681px;
 }
 
-.screen-2 .line-2 {
-  height: 15px;
+.screen-2 .overlap-group-wrapper {
+  height: 275px;
+  left: 798px;
+  position: absolute;
+  top: 312px;
+  width: 595px;
+}
+
+.screen-2 .overlap-group-4 {
+  height: 130px;
+  position: relative;
+  top: -1px;
+}
+
+.screen-2 .desktop-3 .overlap-group-4 form button.btn {
+  margin: 200px;
+  margin-top: 350px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  left: 40px;
+}
+
+.screen-2 .desktop-3 .overlap-group-4 form button.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
   left: 0;
-  position: absolute;
-  top: 64px;
-  width: 88px;
+  top: 0;
+  border-radius: 10px;
 }
 
-.screen-2 .overlap-group-3 {
-  height: 112px;
-  left: 227px;
+.screen-2 .desktop-3 .overlap-group-4 form button.btn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
   position: absolute;
-  top: 840px;
-  width: 408px;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
 }
 
-.screen-2 .text-wrapper-8 {
-  color: #b81157;
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.screen-2 .desktop-3 .overlap-group-4 form button.btn:hover::before {
+  opacity: 1;
+}
+
+.screen-2 .desktop-3 .overlap-group-4 form button.btn:hover::after {
+  background: transparent;
+}
+
+.screen-2 .desktop-3 .overlap-group-4 form button.btn:active {
+  color: #000;
+  font-weight: bold;
+}
+
+.screen-2 .username {
+  color: #000000;
   font-family: "Poppins", Helvetica;
-  font-size: 40px;
-  font-weight: 600;
-  left: 0;
+  font-size: 30px;
+  font-weight: 100;
+  left: 19px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
-  width: 408px;
+  text-shadow: 0px 4px 4px #00000040;
+  top: -10;
+  width: 283px;
 }
 
-.screen-2 .arrow-3 {
-  height: 37px;
-  left: 131px;
+.screen-2 .password {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 30px;
+  font-weight: 100;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 12px;
-  width: 76px;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 155px;
+  width: 283px;
 }
 
-.screen-2 .overlap-7 {
-  height: 95px;
-  left: 748px;
-  position: absolute;
-  top: 298px;
-  width: 594px;
-}
-
-.screen-2 .rectangle-4 {
-  height: 81px;
-  left: 0;
-  mix-blend-mode: hard-light;
-  position: absolute;
-  top: 14px;
-  width: 594px;
-}
-
-.screen-2 .username-2 {
-  height: 36px;
-  left: 3px;
-  position: absolute;
-  top: 0;
-  width: 202px;
-}
-
-.screen-2 .overlap-8 {
-  height: 89px;
-  left: 752px;
-  position: absolute;
-  top: 480px;
-  width: 586px;
-}
-
-.screen-2 .rectangle-5 {
-  background-color: #d9d9d9;
-  border-radius: 40px;
-  box-shadow: 0px 4px 4px #00000040;
-  height: 73px;
-  left: 0;
-  mix-blend-mode: hard-light;
-  position: absolute;
-  top: 16px;
-  width: 586px;
-}
-
-.screen-2 .password-2 {
-  height: 38px;
-  left: 11px;
-  position: absolute;
-  top: 0;
-  width: 186px;
+.screen-2 .desktop-3 .overlap-group-4 button.btn-back {
+  margin: -30px;
+  padding: 15px 40px;
+  border: none;
+  margin-left: 40px;
+  outline: none;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  background-color: #b81157;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  left: 900px;
+  top:-20px;
 }

@@ -1,0 +1,1 @@
+export { Departament3} from "./Departament3";

@@ -1,0 +1,52 @@
+.table.property-headprop {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .table .table-head {
+    color: #00000080;
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: -4px;
+    margin-top: -6px;
+    position: relative;
+    width: 63px;
+  }
+  
+  .table.property-check {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47px;
+  }
+  
+  .table.check {
+    background-color: #eaeaea;
+    left: 23px;
+    top: 40px;
+  }
+  
+  .table.text-cell {
+    background-color: #ffffff;
+    left: 20px;
+    top: 113px;
+  }
+  
+  .table.head-prop {
+    background-color: #eaeaea;
+    left: 23px;
+    top: 40px;
+  }
+  
+ 

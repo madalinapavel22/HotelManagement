@@ -1,0 +1,70 @@
+.property-wrapper {
+    height: 52px;
+    left: 20px;
+    position: relative;
+    width: 228px;
+  }
+  
+  .property-wrapper .div {
+    height: 52px;
+    position: relative;
+  }
+  
+  .property-wrapper .frame-wrapper {
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 228px;
+  }
+  
+  .property-wrapper .class {
+    background-color: #eaeaea !important;
+    display: flex !important;
+    height: 50px !important;
+    left: unset !important;
+    top: 2px !important;
+    width: 228px !important;
+  }
+  
+  .property-wrapper .class-2 {
+    background-color: #4f8ce8 !important;
+    display: flex !important;
+    height: 50px !important;
+    left: unset !important;
+    top: 2px !important;
+    width: 228px !important;
+  }
+  
+  .property-wrapper .class-3 {
+    display: flex !important;
+    height: 50px !important;
+    left: unset !important;
+    top: 2px !important;
+    width: 228px !important;
+  }
+  
+  .property-wrapper .teams-instance {
+    left: 28px !important;
+  }
+  
+  .property-wrapper .vector {
+    height: 30px;
+    left: 40px;
+    position: absolute;
+    top: 14px;
+    width: 30px;
+  }
+  
+  .property-wrapper.variant-3 {
+    top: 164px;
+  }
+  
+  .property-wrapper.variant-4 {
+    top: 20px;
+  }
+  
+  .property-wrapper.variant-2 {
+    top: 92px;
+  }
+  

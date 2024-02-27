@@ -1,0 +1,29 @@
+.column-variant {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    height: 38px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 43px;
+    width: 68px;
+  }
+  
+  .column-variant .table-body {
+    color: #00000033;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: -7px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    margin-top: -9px;
+    position: relative;
+    width: 63px;
+  }
+  

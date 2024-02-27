@@ -14,9 +14,7 @@ export const DesktopScreen = () => {
           <img className="img" alt="Line" src="/img/line-1.svg" />
         </div>
         <div className="overlap-5">
-          <div className="text-wrapper-6">NEXT</div>
           <Link to="/desktop-3">
-            <img className="arrow-2" alt="Arrow" src="/img/arrow-1.svg" />
           </Link>
         </div>
         <Component

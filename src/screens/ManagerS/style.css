@@ -1,0 +1,585 @@
+.managerS {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.managerS .div-2 {
+  background-color: #ffffff;
+  height: 1150px;
+  overflow: hidden;
+  position: relative;
+  width: 2100px;
+}
+
+.managerS .overlap {
+  height: 1500px;
+  left: -20px;
+  position: absolute;
+  top: 0;
+  width: 1767px;
+}
+
+.managerS .side-menu {
+  background-color: #ffffff;
+  box-shadow: 4px 0px 20px #0000000d;
+  height: 950px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 263px;
+  display: flex;
+  flex-direction: column; /* Align buttons in a column */
+  align-items: center; /* Center buttons horizontally */
+}
+
+.managerS .component-4 {
+  left: 0px !important;
+  position: absolute !important;
+  top: 661px !important;
+}
+
+.managerS .frame-instance {
+  left: 0px !important;
+  position: absolute !important;
+  top: 160px !important;
+}
+
+.managerS .component-6-instance {
+  left: 0px !important;
+  position: absolute !important;
+  top: 332px !important;
+}
+
+.managerS .property-variant {
+  left: 0px !important;
+  position: absolute !important;
+  top: 504px !important;
+}
+
+.managerS .top-navigation {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px #0000001a;
+  height: 60px;
+  left: 0px;
+  position: absolute;
+  top: 0;
+  width: 2100px;
+}
+
+.managerS .frame-9 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0000004a;
+  display: flex;
+  gap: 10px;
+  height: 59px;
+  left: 0;
+  padding: 0px 20px;
+  position: absolute;
+  top: 0;
+  width: 283px;
+}
+
+.managerS .admin-logo {
+  height: 49px;
+  position: relative;
+  width: 42px;
+}
+
+.managerS .MANAGER {
+  -webkit-text-stroke: 1px #000000;
+  color: #2d2424;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.managerS .text-wrapper-8 {
+  color: #2d2424;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.managerS .text-wrapper-9 {
+  font-size: 26px;
+}
+
+.managerS .frame-5-instance {
+  left: 350px !important;
+  position: absolute !important;
+  top: 87px !important;
+}
+
+.managerS .frame-6-instance {
+  left: 840px !important;
+  position: absolute !important;
+  top: 87px !important;
+}
+
+.managerS .frame-7-instance {
+  left: 1330px !important;
+  position: absolute !important;
+  top: 87px !important;
+}
+.managerS .compo-empl-instance {
+  height: 52px !important;
+  left: 14px !important;
+  position: absolute !important;
+  top: 173px !important;
+  width: 228px !important;
+}
+
+.managerS .compo-empl-2 {
+  left: unset !important;
+  position: unset !important;
+  top: unset !important;
+  width: unset !important;
+}
+
+.managerS .compo-empl-3 {
+  width: 228px !important;
+}
+.managerS .side-menu .button1 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; 
+  margin-bottom: 200px; 
+  display: block; 
+  height: 48px; 
+  width: 200px; 
+  text-align: center; 
+  border-radius: 15px; 
+  line-height: 14px;
+  top: 200;
+  box-shadow: 0px 0px 10px #4f8ce8; 
+}
+
+.managerS .side-menu .button1:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button1.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; 
+}
+
+.managerS .side-menu .button2 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin-bottom: 100px; /* Distance between buttons */
+  display: block; /* Ensure buttons are on a new line */
+  height: 48px; /* Set the height of the button */
+  width: 200px; /* Set the width of the button */
+  text-align: center; /* Center text horizontally */
+  border-radius: 15px; /* Added border-radius */
+  line-height: 14px; /* Center text vertically */
+  box-shadow: 0px 0px 10px #4f8ce8; /* Default blue blurred shadow */
+}
+
+.managerS .side-menu .button2:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button2.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; /* Remove shadow on click */
+}
+
+
+.managerS .side-menu .button3 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin-bottom: 100px; /* Distance between buttons */
+  display: block; /* Ensure buttons are on a new line */
+  height: 48px; /* Set the height of the button */
+  width: 200px; /* Set the width of the button */
+  text-align: center; /* Center text horizontally */
+  border-radius: 15px; /* Added border-radius */
+  line-height: 14px; /* Center text vertically */
+  box-shadow: 0px 0px 10px #4f8ce8; /* Default blue blurred shadow */
+}
+
+.managerS .side-menu .button3:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button3.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; /* Remove shadow on click */
+}
+
+
+.managerS .side-menu .button4 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin-bottom: 100px; /* Distance between buttons */
+  display: block; /* Ensure buttons are on a new line */
+  height: 48px; /* Set the height of the button */
+  width: 200px; /* Set the width of the button */
+  text-align: center; /* Center text horizontally */
+  border-radius: 15px; /* Added border-radius */
+  line-height: 14px; /* Center text vertically */
+  box-shadow: 0px 0px 10px #4f8ce8; /* Default blue blurred shadow */
+}
+
+.managerS .side-menu .button4:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button4.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; /* Remove shadow on click */
+}
+
+
+
+.managerS .side-menu .button5 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin-bottom: 100px; /* Distance between buttons */
+  display: block; /* Ensure buttons are on a new line */
+  height: 48px; /* Set the height of the button */
+  width: 200px; /* Set the width of the button */
+  text-align: center; /* Center text horizontally */
+  border-radius: 15px; /* Added border-radius */
+  line-height: 14px; /* Center text vertically */
+  box-shadow: 0px 0px 10px #4f8ce8; /* Default blue blurred shadow */
+}
+
+.managerS .side-menu .button5:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button5.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; /* Remove shadow on click */
+}
+
+.managerS .side-menu .button6 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  margin-bottom: 100px; /* Distance between buttons */
+  display: block; /* Ensure buttons are on a new line */
+  height: 48px; /* Set the height of the button */
+  width: 200px; /* Set the width of the button */
+  text-align: center; /* Center text horizontally */
+  border-radius: 15px; /* Added border-radius */
+  line-height: 14px; /* Center text vertically */
+  box-shadow: 0px 0px 10px #4f8ce8; /* Default blue blurred shadow */
+}
+
+.managerS .side-menu .button6:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .side-menu .button6.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none; /* Remove shadow on click */
+}
+.managerS .back-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, filter 0.3s, box-shadow 0.3s; 
+  margin-bottom: 100px;
+  display: block;
+  height: 48px;
+  width: 200px;
+  text-align: center;
+  border-radius: 15px;
+  line-height: 14px;
+  box-shadow: 0px 0px 10px #4f8ce8;
+}
+
+.managerS .back-button:hover {
+  background-color: #eaeaea;
+  filter: blur(1px);
+}
+
+.managerS .back-button.clicked {
+  background-color: #4f8ce8;
+  color: #fff;
+  filter: none;
+  box-shadow: none;
+}
+.managerS .custom-frame {
+  width: 900px;
+  height: 500px;
+  top: 400px;
+  left: 600px;
+
+  border-radius: 15px;  /* Add border radius */
+ 
+  /* Other common styles */
+}
+
+.managerS .visible {
+  background-color: rgba(186, 195, 241, 0.45);
+  position: fixed;
+  top: 300px;
+  left: 350px;
+  border-radius: 15px;  /* Add border radius */
+  opacity: 0.9;  /* Add opacity */
+  /* Other styles for when the frame is visible */
+}
+
+
+.managerS .custom-frame6 {
+  width: 900px;
+  height: 500px;
+  top: 400px;
+  left: 600px;
+
+  border-radius: 15px;  /* Add border radius */
+ 
+  /* Other common styles */
+}
+
+.managerS .visible6 {
+  background-color: #2d653d69;
+
+  position: fixed;
+  top: 300px;
+  left: 350px;
+  border-radius: 15px;  /* Add border radius */
+  opacity: 0.9;  /* Add opacity */
+  /* Other styles for when the frame is visible */
+}
+
+
+.managerS .custom-frame7 {
+  width: 900px;
+  height: 500px;
+  top: 400px;
+  left: 600px;
+
+  border-radius: 15px;  /* Add border radius */
+ 
+  /* Other common styles */
+}
+
+.managerS .visible7 {
+  background-color: #f0393969;
+
+  position: fixed;
+  top: 300px;
+  left: 350px;
+  border-radius: 15px;  /* Add border radius */
+  opacity: 0.9;  /* Add opacity */
+  /* Other styles for when the frame is visible */
+}
+
+
+
+
+.custom-frame5 {
+display: none; /* Initially hide all frames */
+/* Add any other common styles for the frames */
+}
+.custom-frame3 {
+display: none;
+background-color: #ff0000; 
+}
+
+.visible3 {
+display: block;
+background-color: white; 
+position: fixed;
+top: 475px;
+left: 1116px; 
+transform: translate(-50%, -50%);
+width: 1700px;
+height: 820px; 
+z-index: 1000;
+} 
+
+
+.custom-frame2 {
+display: none;
+background-color: #ff0000; /* Add a background color for visibility */
+}
+
+.visible2 {
+display: block;
+background-color: white; /* Temporary background color for visibility */
+position: fixed;
+top: 475px;
+left: 1116px; /* Adjust left as needed */
+transform: translate(-50%, -50%);
+width: 1700px; /* Adjust width as needed */
+height: 820px; /* Adjust height as needed */
+z-index: 1000;
+}
+
+.custom-frame4 {
+display: none;
+background-color: #ff0000; /* Add a background color for visibility */
+}
+
+.visible4 {
+display: block;
+background-color: white; /* Temporary background color for visibility */
+position: fixed;
+top: 475px;
+left: 1116px; /* Adjust left as needed */
+transform: translate(-50%, -50%);
+width: 1700px; /* Adjust width as needed */
+height: 820px; /* Adjust height as needed */
+z-index: 1000;
+}
+
+.custom-frame5 {
+display: none;
+background-color: #ff0000; /* Add a background color for visibility */
+}
+
+.visible5 {
+display: block;
+background-color: white; /* Temporary background color for visibility */
+position: fixed;
+top: 475px;
+left: 1116px; /* Adjust left as needed */
+transform: translate(-50%, -50%);
+width: 1700px; /* Adjust width as needed */
+height: 820px; /* Adjust height as needed */
+z-index: 1000;
+}
+.managerS .simpleTable {
+width: 140px;
+height: 40px;
+border-collapse: separate;
+border-spacing: 70px 10px;
+margin-top: -5px;
+font-family: 'Inter', Helvetica, sans-serif;
+}
+
+.managerS .simpleTable th,
+.managerS .simpleTable td{
+min-width: 120px;
+height: 20px;
+padding: 12px;
+text-align: center;
+line-height: 1.4;
+border-radius: 10px;
+color: #00000080;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+.managerS .simpleTable th {
+background-color: #eaeaea;
+border-color: #000000;
+margin-bottom: 400px; /* Adjust the margin to create space after the header */
+}
+
+.managerS .simpleTable td {
+margin-top: 400px; /* Adjust the margin to position td elements below the header */
+}
+
+.managerS .simpleTable tbody tr:nth-child(odd) {
+background-color: #add8e6;
+}
+
+.managerS .simpleTable tbody tr:nth-child(even) {
+background-color: #f8f8f8;
+}
+
+.managerS .simpleTable tbody tr:hover {
+background-color: #e0e0e0;
+transition: background-color 0.3s ease;
+}
+.custom-frame10 {
+  position: fixed;
+  background-color: #fff; /* Adjust the background color as needed */
+  border: 1px solid #ccc; /* Add border if desired */
+  padding: 20px;
+  display: none;
+  z-index: 1000; /* Adjust the z-index as needed */
+  border-radius: 10px;
+}
+
+.visible10 {
+  background-color: #bac3f0;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 495px;
+  left: 1300px;
+  position: relative;
+  top: 300px;
+  width: 600px;
+  display: block;
+}
+
+.clients-frame {
+  /* Add styles for the clients-frame class */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.clients-frame p {
+  /* Add styles for the text inside the clients-frame */
+  color: #fff; /* Text color */
+  font-size: 18px;
+  font-weight: bold;
+}

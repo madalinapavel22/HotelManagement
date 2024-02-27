@@ -1,0 +1,649 @@
+.tables {
+    background-color: #9587870d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    position: absolute; 
+  }
+  
+  .tables .div {
+    background-color: #9587870d;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute; 
+    width: 100%;
+  }
+  
+  .tables .frame {
+    border: 1px solid;
+    border-color: #000000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    height: 80%; 
+}
+
+  
+  .tables .overlap-group {
+    height: 87px;
+    left: 10px;
+    position: absolute;
+    top: 17px;
+    width: 138px;
+  }
+  
+  .tables .frame-2 {
+    height: 870px;
+    left: 0;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    width: 100px;
+  }
+  
+  .tables .table-instance {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 5px !important;
+    width: 68px !important;
+  }
+  
+  .tables .design-component-instance-node {
+    font-size: 11px !important;
+    margin-bottom: -7px !important;
+    margin-left: -7.5px !important;
+    margin-right: -7.5px !important;
+    margin-top: -9px !important;
+  }
+  
+  .tables .column1-variant2 {
+    left: 0 !important;
+    position: absolute !important;
+  }
+  
+  .tables .column-variant-instance {
+    left: 7px !important;
+    position: absolute !important;
+    top: 87px !important;
+  }
+  
+  .tables .table-2 {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 70px !important;
+    position: absolute !important;
+    top: 5px !important;
+    width: 68px !important;
+  }
+  
+  .tables .table-3 {
+    font-size: 11px !important;
+    margin-bottom: -7px !important;
+    margin-left: -7.5px !important;
+    margin-right: -7.5px !important;
+    margin-top: -9px !important;
+    text-align: center !important;
+  }
+  
+  .tables .column1-variant2-instance {
+    left: 70px !important;
+    position: absolute !important;
+    top: 44px !important;
+  }
+  
+  .tables .column-variant-2 {
+    left: 10px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-3 {
+    left: 10px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-4 {
+    left: 10px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .column-variant-5 {
+    left: 80px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-6 {
+    left: 80px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-7 {
+    left: 80px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .table-head-wrapper {
+    align-items: center;
+    background-color: #eaeaea;
+    display: flex;
+    gap: 20px;
+    height: 38px;
+    justify-content: center;
+    left: 151px;
+    padding: 10px;
+    position: absolute;
+    top: 22px;
+    width: 68px;
+  }
+  
+  .tables .p {
+    color: #00000033;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-bottom: -7px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    margin-top: -9px;
+    position: relative;
+    text-align: center;
+    width: 63px;
+  }
+  
+  .tables .text-wrapper {
+    color: #000000f2;
+  }
+  
+  .tables .span {
+    color: #000000f2;
+    font-size: 11px;
+  }
+  
+  .tables .table-4 {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 222px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 68px !important;
+  }
+  
+  .tables .table-5 {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 293px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 68px !important;
+  }
+  
+  .tables .table-6 {
+    margin-bottom: -7px !important;
+    margin-left: -7.5px !important;
+    margin-right: -7.5px !important;
+    margin-top: -9px !important;
+    text-align: center !important;
+  }
+  
+  .tables .table-7 {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 364px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 68px !important;
+  }
+  
+  .tables .table-8 {
+    gap: 20px !important;
+    height: 38px !important;
+    left: 435px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 68px !important;
+  }
+  
+  .tables .table-9 {
+    gap: 20px !important;
+    height: 60px !important;
+    left: 1060px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 120px !important;
+    border-radius: 10px;
+  }
+  
+  .tables .table-10 {
+    margin-bottom: -7px !important;
+    margin-left: -17.5px !important;
+    margin-right: -17.5px !important;
+    margin-top: -9px !important;
+    text-align: center !important;
+  }
+  
+  .tables .table-11 {
+    gap: 20px !important;
+    height: 60px !important;
+    left: 1190px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 120px !important;
+    border-radius: 10px;
+  }
+  
+  .tables .table-12 {
+    gap: 20px !important;
+    height: 60px !important;
+    left: 1320px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 120px !important;
+    border-radius: 10px;
+  }
+  
+  .tables .table-13 {
+    gap: 20px !important;
+    height: 60px !important;
+    left: 1450px !important;
+    position: absolute !important;
+    top: 22px !important;
+    width: 120px !important;
+    border-radius: 10px;
+  }
+  
+  .tables .column-variant-8 {
+    left: 151px !important;
+    position: absolute !important;
+    top: 61px !important;
+  }
+  
+  .tables .column-variant-9 {
+    left: 151px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-10 {
+    left: 151px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-11 {
+    left: 151px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .column-variant-12 {
+    left: 222px !important;
+    position: absolute !important;
+    top: 61px !important;
+  }
+  
+  .tables .column-variant-13 {
+    left: 222px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-14 {
+    left: 222px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-15 {
+    left: 222px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .column-variant-16 {
+    left: 293px !important;
+    position: absolute !important;
+    top: 61px !important;
+  }
+  
+  .tables .column-variant-17 {
+    left: 293px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-18 {
+    left: 293px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-19 {
+    left: 293px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .column-variant-20 {
+    left: 364px !important;
+    position: absolute !important;
+    top: 61px !important;
+  }
+  
+  .tables .column-variant-21 {
+    left: 364px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-22 {
+    left: 364px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-23 {
+    left: 364px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .tables .column-variant-24 {
+    left: 435px !important;
+    position: absolute !important;
+    top: 61px !important;
+  }
+  
+  .tables .column-variant-25 {
+    left: 435px !important;
+    position: absolute !important;
+    top: 104px !important;
+  }
+  
+  .tables .column-variant-26 {
+    left: 435px !important;
+    position: absolute !important;
+    top: 147px !important;
+  }
+  
+  .tables .column-variant-27 {
+    left: 435px !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .simple-table {
+    width: 140px; /* Match width with .tables .table-13 */
+    height: 60px; /* Match height with .tables .table-13 */
+    border-collapse: separate;
+    border-spacing: 7px;
+    margin-top: -2px;
+    font-family: 'Inter', Helvetica, sans-serif; /* Use a modern font */
+  }
+  
+  .simple-table th, .simple-table td {
+    min-width: 140px; /* Set minimum width to 120px */
+    height: 60px; /* Match height with .tables .table-13 */
+    padding: 12px;
+    text-align: center; /* Center align text */
+    line-height: 1.4; /* Adjust line height for better vertical centering */
+    border-radius: 10px;
+    color: #00000080;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .simple-table th {
+    background-color: #eaeaea;
+  }
+  
+  .simple-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  /* Hover effect for better user interaction */
+  .simple-table tbody tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-back {
+    background-color: #4d2d17; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 20px 40px; /* Padding for better spacing */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    position: absolute;
+    top: 905px; /* Adjust the top distance as needed */
+    right: 65px; /* Adjust the right distance as needed */
+  }
+  
+  .btn-back:hover {
+    background-color: #8c6833; /* Darker green on hover */
+  }
+  .tables .TODAYS-WORK-PLAN {
+    display: block;
+    height: 50px;
+    left: 306px;
+    opacity: 1; /* Change this to 1 or another value between 0 and 1 */
+    position: absolute;
+    top: 25px;
+    transform: scale(0.9);
+    width: 250px;
+    z-index: 1; /* Add this line */
+  }
+  .tables .checkbox-1 {
+    left: 1106px !important;
+    top: 100px !important;
+  }
+  
+  .tables .checkbox-2 {
+    left: 1234px !important;
+    top: 100px !important;
+  }
+  
+  .tables .checkbox-3 {
+    left: 1362px !important;
+    top: 100px !important;
+  }
+  
+  .tables .checkbox-4 {
+    left: 1490px !important;
+    top: 100px !important;
+  
+  }
+  
+  .tables .checkbox-5 {
+    left: 1106px !important;
+    top: 165px !important;
+  }
+  
+  .tables .checkbox-6 {
+    left: 1234px !important;
+    top: 165px !important;
+  }
+  
+  .tables .checkbox-7 {
+    left: 1362px !important;
+    top: 165px !important;
+  }
+  
+  .tables .checkbox-8 {
+    left: 1490px !important;
+    top: 165px !important;
+  }
+  
+  .tables .checkbox-9 {
+    left: 1106px !important;
+    top: 230px !important;
+  }
+  
+  .tables .checkbox-10 {
+    left: 1234px !important;
+    top: 230px !important;
+  }
+  
+  .tables .checkbox-11 {
+    left: 1362px !important;
+    top: 230px !important;
+  }
+  
+  .tables .checkbox-12 {
+    left: 1490px !important;
+    top: 230px !important;
+  }
+  
+  .tables .checkbox-13 {
+    left: 1106px !important;
+    top: 295px !important;
+  }
+  
+  .tables .checkbox-14 {
+    left: 1234px !important;
+    top: 295px !important;
+  }
+  
+  .tables .checkbox-15 {
+    left: 1362px !important;
+    top: 295px !important;
+  }
+  
+  .tables .checkbox-16 {
+    left: 1490px !important;
+    top: 295px !important;
+  }
+  .tables .checkbox-17{
+    left: 1106px !important;
+    top: 360px !important;
+  }
+  
+  .tables .checkbox-18 {
+    left: 1234px !important;
+    top: 360px !important;
+  }
+  
+  .tables .checkbox-19 {
+    left: 1362px !important;
+    top: 360px !important;
+  }
+  
+  .tables .checkbox-20 {
+    left: 1490px !important;
+    top: 360px !important;
+  }
+  .tables .checkbox-21{
+    left: 1106px !important;
+    top: 425px !important;
+  }
+  
+  .tables .checkbox-22 {
+    left: 1234px !important;
+    top: 425px !important;
+  }
+  
+  .tables .checkbox-23 {
+    left: 1362px !important;
+    top: 425px !important;
+  }
+  
+  .tables .checkbox-24 {
+    left: 1490px !important;
+    top: 425px !important;
+  }
+  .tables .checkbox-25{
+    left: 1106px !important;
+    top: 490px !important;
+  }
+  
+  .tables .checkbox-26 {
+    left: 1234px !important;
+    top: 490px !important;
+  }
+  
+  .tables .checkbox-27 {
+    left: 1362px !important;
+    top: 490px !important;
+  }
+  
+  .tables .checkbox-28 {
+    left: 1490px !important;
+    top: 490px !important;
+  }
+
+  .tables .emergency-rectangle {
+    background-color: rgba(255, 0, 0,0.41); /* Set the background color as needed */
+    height: 50px; /* Set the height of the rectangle */
+    width: 100px; /* Set the width of the rectangle */
+    top: 100px; /* Adjust the top position as needed */
+    left: 40px; /* Adjust the left position as needed */
+    position: absolute;
+    border-radius:10px ;
+    border:none;
+}
+.tables .top-rectangle-text {
+  position:absolute;
+  white-space: nowrap;
+  top: 65px; /* Adjust the top value as needed */
+  left: 10px; /* Adjust the left value as needed */
+  color: rgba(0, 0, 0, 1); /* Adjust the text color */
+  font-size: 16px; /* Adjust the font size */
+}
+
+.tables .free-rectangle {
+  background-color: rgba(0, 0, 255,0.41); /* Set the background color as needed */
+  height: 50px; /* Set the height of the rectangle */
+  width: 100px; /* Set the width of the rectangle */
+  top: 200px; /* Adjust the top position as needed */
+  left: 40px; /* Adjust the left position as needed */
+  position: absolute;
+  border-radius:10px ;
+  border:none;
+}
+.tables .free-rectangle-text {
+position:absolute;
+white-space: nowrap;
+top: 65px; /* Adjust the top value as needed */
+left: 29px; /* Adjust the left value as needed */
+color: rgba(0, 0, 0, 1); /* Adjust the text color */
+font-size: 16px; /* Adjust the font size */
+}
+
+.tables .done-rectangle {
+  background-color: rgba(0, 255, 0,0.41); /* Set the background color as needed */
+  height: 50px; /* Set the height of the rectangle */
+  width: 100px; /* Set the width of the rectangle */
+  top: 300px; /* Adjust the top position as needed */
+  left: 40px; /* Adjust the left position as needed */
+  position: absolute;
+  border-radius:10px ;
+  border:none;
+}
+.tables .done-rectangle-text {
+position:absolute;
+white-space: nowrap;
+top: 65px; /* Adjust the top value as needed */
+left: 29px; /* Adjust the left value as needed */
+color: rgba(0, 0, 0, 1); /* Adjust the text color */
+font-size: 16px; /* Adjust the font size */
+}
+
+  

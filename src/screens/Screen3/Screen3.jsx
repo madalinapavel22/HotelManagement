@@ -23,12 +23,13 @@ export const Screen3 = () => {
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      const response = await axios.get(`http://localhost:1234/client/getById/${parseInt(code, 10)}`);
+      const response = await axios.get(`http://localhost:8082/client/getById/${parseInt(code, 10)}`);
   
-      if (response.data) {
-        console.log("Employee exists:", response.data);
-        alert("Employee exists");
-        navigate("/MyRoom");
+      if (response.data && Object.keys(response.data).length > 0) {
+         console.log("Employee exists:", response.data);
+         alert("Employee exists");
+         //query daca in tabelul de InfoRoom exista camera cu codul de sus
+        navigate("/MyRoom",{state:{code}});
         
       } else {
         console.log("Employee does not exist");
@@ -83,7 +84,12 @@ export const Screen3 = () => {
                 {" "}
                 LOGIN{" "}
               </button>
+            
             </form>
+            <button className="btn-back" onClick={() => navigate(-1)}>
+                {" "}
+                BACK{" "}
+              </button>
           </div>
         </div>
       </div>

@@ -1,11 +1,419 @@
-:root {
-    --scale-factor: 0.75;
-  }
-  .MyRoom {
-    background-color: #f3f3f3;
-    display: flex;
-    flex-direction: column; /* Change to column for a full-screen height layout */
-    align-items: center; /* Center the content horizontally */
-    justify-content: center; /* Center the content vertically */
-    height: 100vh; /* 100% of the viewport height */
-  }
+.MyRoom {
+  background-color: #ffffff63;
+  display: flex;
+  flex-direction: column; /* Change to column to stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+.MyRoom .overlap-wrapper {
+  background-color: #ffffff63;
+  height: 1080px;
+  width: 1920px;
+}
+.MyRoom .overlap {
+  height: 747px;
+  left: 66px;
+  position: relative;
+  top: 143px;
+  width: 1416px;
+}
+
+.MyRoom .do-not-disturb {
+   align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left:10px;
+  position:absolute;
+  top: 203px;
+}
+
+.MyRoom .do-not-disturb-text {
+  position:absolute;
+  white-space: nowrap;
+  top: 83px; /* Adjust the top value as needed */
+  left: -13px; /* Adjust the left value as needed */
+  color: rgba(0, 0, 0, 0.0); /* Adjust the text color */
+  font-size: 16px; /* Adjust the font size */
+}
+
+.MyRoom .ellipsednd:hover .do-not-disturb-text {
+  color: rgba(0, 0, 0, 0.5); /* Set alpha to the desired transparency on hover */
+}
+
+
+
+.MyRoom .alert {
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 303px;
+}
+.MyRoom .alert-text {
+  position: absolute;
+  top: 83px; /* Adjust the top value as needed */
+  left: 2px; /* Adjust the left value as needed */
+  color: rgba(0, 0, 0, 0.0); /* Adjust the text color */
+  font-size: 16px; /* Adjust the font size */
+}
+
+.MyRoom .ellipsealert:hover .alert-text {
+  color: rgba(0, 0, 0, 0.5); /* Set alpha to the desired transparency on hover */
+}
+
+.MyRoom .plus{
+  
+  z-index: 2;
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 100px;
+} 
+
+.MyRoom .plus-text {
+  position: absolute;
+  top: 83px; /* Adjust the top value as needed */
+  left: 17px; /* Adjust the left value as needed */
+  color: rgba(0, 0, 0, 0.0); /* Adjust the text color */
+  font-size: 16px; /* Adjust the font size */
+}
+
+
+
+.MyRoom .ellipseplus {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+} 
+
+.MyRoom .ellipseplus:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  cursor:pointer;
+}
+
+.MyRoom .ellipseplus:hover .plus-text {
+  color: rgba(0, 0, 0, 0.5); /* Set alpha to the desired transparency on hover */
+}
+
+
+.MyRoom .liquid {
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 400px;
+ transition-delay: 0.4s;
+}
+.MyRoom .towel {
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 300px;
+ transition-delay: 0.3s;
+}
+.MyRoom .paper {
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 200px;
+ transition-delay: 0.2s;
+}
+.MyRoom .close {
+  align-items: flex-start;
+ display: inline-flex;
+ gap: 10px;
+ left:10px;
+ position:absolute;
+ top: 100px;
+}
+.MyRoom .btn {
+  position: fixed;
+  border-radius: 50%;
+  background-color: rgba(92, 84, 78, 0.80);
+  padding: 40px 40px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  left: 1520px; 
+  top: 750px; 
+  outline: none;
+  transition: box-shadow 0.3s ease; 
+}
+
+.MyRoom .btn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+.MyRoom .box {
+  z-index: 1;
+  position: fixed;
+  bottom: 580px;
+  left: 39px;
+  height: 0px;
+  transition-delay: 0.3s;
+  width: 80px;
+  transition: all 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.MyRoom .action-instance {
+  left: 19px !important;
+  position: absolute !important;
+  top: 186px !important;
+}
+
+.MyRoom .ellipsednd {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+}
+
+.ellipsednd:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+}
+
+
+.MyRoom .ellipsealert {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+}
+
+.ellipsealert:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+}
+
+
+
+.MyRoom .ellipsesoap {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+}
+.ellipsesoap:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+}
+
+
+.MyRoom .ellipsetowels {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+}
+.ellipsetowels:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+}
+
+.MyRoom .ellipsepaper {
+  border-radius: 100%;
+  border:none;
+  display: block; 
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color:rgba(92, 84, 78, 0.80);
+  
+}
+
+.ellipsepaper:hover {
+  box-shadow: 0px 30px 54px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+}
+
+
+.MyRoom .vector {
+  height: 42.96%;
+  left:27.84%;
+  top:28.87%;
+  position: absolute;
+  width:42.96%;
+}
+.MyRoom .img {
+  height: 20px;
+  width:30px;
+  position: relative;
+}
+
+.MyRoom .property-default {
+  height: 201px !important;
+  left:0 !important;
+  width:137px !important;
+  position: absolute !important;
+  top:0 !important;
+}
+
+.MyRoom .property-active {
+  left:19px !important;
+  position: absolute !important;
+  top:186 !important;
+}
+
+.MyRoom .overlap-group-wrapper {
+  height: 747px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1416px;
+}
+
+.MyRoom .overlap-group {
+  background-blend-mode: darken;
+  opacity: 0.7;
+  background-image: url(https://cdn.animaapp.com/projects/656452171ec410583270ac4b/releases/658b5edc6c2db389163daec3/img/rectangle-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 747px;
+  left: 175px;
+  position: relative;
+  top: -120px;
+}
+
+.MyRoom .component-1 {
+  left: 407px !important;
+  top: 296px !important;
+}
+
+.MyRoom .component-instance {
+  background-image: url(https://cdn.animaapp.com/projects/656452171ec410583270ac4b/releases/658b5edc6c2db389163daec3/img/frame-3.svg) !important;
+}
+
+.MyRoom .component-1-instance {
+  background-image: url(https://cdn.animaapp.com/projects/656452171ec410583270ac4b/releases/658b5edc6c2db389163daec3/img/frame-4.svg) !important;
+}
+
+.MyRoom .text-wrapper {
+  color: #00000073;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 613px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -60px;
+  width: 624px;
+}
+.timer {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 45px; /* Adjust as needed for spacing */
+}
+
+.timer > div {
+  display: flex;
+  align-items: center;
+}
+
+.timer section {
+  margin: 0 10px;
+}
+
+.timer p {
+  font-size: 2em;
+  margin: 0;
+  color: #BDC3C7 
+ 
+  ;
+}
+
+.timer small {
+  font-size: 0.65em;
+  color: #BDC3C7 
+ 
+  ;
+}
+
+.MyRoom .box.box-active {
+  height: 480px;
+  width: 260;
+}
+
+.MyRoom .btn {
+  position: fixed; /* or absolute, relative, etc., depending on your layout needs */
+  border-radius: 50%;
+  background-color: rgba(92, 84, 78, 0.80);
+  padding: 40px 40px;
+  color: white;
+  cursor: center;
+  border: none;
+  left: 1520px; /* Adjust the left value as needed */
+  top: 750px; /* Adjust the top value as needed */
+  outline: none;
+  transition: box-shadow 0.3s ease; /* Add transition for a smooth effect */
+}
+
+.MyRoom .btn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Add a box-shadow effect on hover */
+}
+
+.MyRoom .btn-back {
+  position: fixed;
+  border-radius: 50%;
+  background-color: rgba(92, 84, 78, 0.80);
+  padding: 40px 50px;
+  color: white;
+  cursor: center; /* Note: 'cursor' property does not have a 'center' value, you might want to use 'pointer' */
+  border: none;
+  left: 1500px; /* Adjust the left value as needed */
+  top: 750px; /* Adjust the top value as needed */
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  height: 30px; /* Adjust the height value as needed */
+  width: 40px; /* Adjust the width value as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.MyRoom .btn-back:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
