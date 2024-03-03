@@ -1,2 +1,3 @@
 # HotelManagement
-The frontend part is located in the master branch.
+
+The technologies used include React, Java, JavaScript, and JavaSpring.
